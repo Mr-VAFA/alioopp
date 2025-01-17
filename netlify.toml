@@ -8,6 +8,9 @@
   publish = "website-project/src"
   command = ""
 
+[build.processing]
+  skip_processing = true
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
