@@ -1,0 +1,15 @@
+website-project
+├── src
+│   ├── css
+│   │   └── styles.css
+│   ├── js
+│   │   └── main.js
+│   └── pages
+│       ├── about.html
+│       ├── contact.html
+│       └── index.html
+├── public
+│   └── assets
+├── .gitignore
+├── package.json
+└── README.md

@@ -1,0 +1,14 @@
+برای انتشار سایت شما، چند روش پیشنهاد می‌کنم:
+
+1. **استفاده از Netlify (رایگان و ساده):**
+
+ابتدا یک فایل `netlify.toml` در ریشه پروژه ایجاد کنید:
+
+[build]
+  publish = "website-project/src"
+  command = "# no build command"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
